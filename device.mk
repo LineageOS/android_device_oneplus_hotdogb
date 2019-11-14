@@ -16,10 +16,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Camera
 PRODUCT_PACKAGES += \
     vendor.lineage.camera.motor@1.0 \
-    vendor.lineage.camera.motor@1.0-service.guacamole \
+    vendor.lineage.camera.motor@1.0-service.hotdog \
     OnePlusCameraHelper
 
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
-    init.display.guacamole.rc
+    init.display.hotdog.rc

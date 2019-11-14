@@ -6,11 +6,11 @@
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
 BOARD_VENDOR := oneplus
-DEVICE_PATH := device/oneplus/guacamole
+DEVICE_PATH := device/oneplus/hotdog
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
+TARGET_OTA_ASSERT_DEVICE := OnePlus7TPro
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
