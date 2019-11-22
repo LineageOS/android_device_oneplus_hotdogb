@@ -13,6 +13,12 @@ $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# A/B
+AB_OTA_PARTITIONS += \
+    odm \
+    product \
+    vbmeta_system
+
 # Camera
 PRODUCT_PACKAGES += \
     vendor.lineage.camera.motor@1.0 \
