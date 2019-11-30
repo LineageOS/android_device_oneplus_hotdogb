@@ -24,6 +24,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 AB_OTA_PARTITIONS += \
     odm \
     product \
+    recovery \
     vbmeta_system
 
 # Camera
