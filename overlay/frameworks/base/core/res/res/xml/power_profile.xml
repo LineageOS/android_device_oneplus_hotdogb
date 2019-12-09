@@ -81,6 +81,7 @@
         <value>2649600</value>
         <value>2745600</value>
         <value>2841600</value>
+        <value>2956800</value>
     </array>
     <array name="cpu.core_power.cluster0">
         <value>28.38</value>
@@ -139,10 +140,11 @@
         <value>450.99</value>
         <value>467.03</value>
         <value>504.67</value>
+        <value>540.04</value>
     </array>
     <item name="cpu.idle">5</item>
     <item name="cpu.awake">8</item>
-    <item name="battery.capacity">4000</item>
+    <item name="battery.capacity">4080</item>
     <array name="wifi.batchedscan">
         <value>.0002</value>
         <value>.002</value>
