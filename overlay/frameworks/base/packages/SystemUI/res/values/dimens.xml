@@ -30,4 +30,8 @@
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">70px</dimen>
+
+    <!--  Allow CornerHandleView and PathSpecCornerPathRenderer to decouple from corner-radius -->
+    <dimen name="config_rounded_mask_size">42px</dimen>
+    <dimen name="config_rounded_mask_size_bottom">85px</dimen>
 </resources>
