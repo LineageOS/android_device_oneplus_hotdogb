@@ -19,6 +19,7 @@ AB_OTA_PARTITIONS += \
     odm \
     product \
     recovery \
+    system_ext \
     vbmeta_system
 
 # Audio
