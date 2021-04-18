@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=hotdog
+export DEVICE=hotdogb
 export DEVICE_COMMON=sm8150-common
 export VENDOR=oneplus
 
