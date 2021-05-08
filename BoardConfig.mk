@@ -21,7 +21,7 @@ AB_OTA_PARTITIONS += \
 TARGET_SCREEN_DENSITY := 420
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+include vendor/lineage/config/BoardConfigReservedSize.mk
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_DTBOIMG_PARTITION_SIZE := 25165824
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 100663296
@@ -55,4 +55,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/hotdogb/BoardConfigVendor.mk
+include vendor/oneplus/hotdogb/BoardConfigVendor.mk
