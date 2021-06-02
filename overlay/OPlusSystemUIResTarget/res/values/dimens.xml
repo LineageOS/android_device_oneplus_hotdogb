@@ -23,4 +23,6 @@
     <!-- Location on the screen of the center of the physical power button. -->
     <dimen name="physical_power_button_center_screen_location_y">937px</dimen>
 
+    <dimen name="keyguard_indication_margin_bottom">8px</dimen>
+
 </resources>
