@@ -18,10 +18,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Device init scripts
 PRODUCT_PACKAGES += \
-    fstab.qcom
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
+    fstab.qcom \
+    fstab.qcom.ramdisk
 
 # GSI
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
