@@ -1,8 +1,6 @@
 # All unpinned blobs below are extracted from OnePlus7TOxygen_14.O.32_OTA_0320_all_2202112234_3f24a87f818973
 
 # ACDB
-vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/MTP/EU/acdb_version
 vendor/etc/acdbdata/MTP/EU/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/EU/MTP_Codec_cal.acdb
 vendor/etc/acdbdata/MTP/EU/MTP_General_cal.acdb
@@ -12,7 +10,7 @@ vendor/etc/acdbdata/MTP/EU/MTP_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/EU/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/EU/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/EU/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/MTP/acdb_version
+vendor/etc/acdbdata/MTP/EU/acdb_version
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Codec_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
@@ -22,6 +20,8 @@ vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
+vendor/etc/acdbdata/MTP/acdb_version
+vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Audio
 vendor/lib/hw/audio.primary.msmnile.so
@@ -36,6 +36,8 @@ vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx519.ncf
 vendor/etc/camera/ashdr/ncf_pack_imx586.ncf
 vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
+vendor/etc/camera/OnePlus_7tPro_Golden_1.bin
+vendor/etc/camera/OnePlus_7tPro_Golden_2.bin
 vendor/etc/camera/arccali.bin
 vendor/etc/camera/attribute.model
 vendor/etc/camera/calibrationOutput_uw.bin
@@ -46,8 +48,6 @@ vendor/etc/camera/goldResult_7T_uw.bin
 vendor/etc/camera/goldResult_7T_wt.bin
 vendor/etc/camera/goldResult_7Tpro_uw.bin
 vendor/etc/camera/goldResult_7Tpro_wt.bin
-vendor/etc/camera/OnePlus_7tPro_Golden_1.bin
-vendor/etc/camera/OnePlus_7tPro_Golden_2.bin
 vendor/etc/camera/vidhance_calibration
 vendor/etc/init/calibrationOutput_uw.rc
 vendor/etc/init/calibrationOutput_wt.rc
