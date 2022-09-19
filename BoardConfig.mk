@@ -17,9 +17,6 @@ AB_OTA_PARTITIONS += \
     system_ext \
     vbmeta_system
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # Display
 TARGET_SCREEN_DENSITY := 420
 
