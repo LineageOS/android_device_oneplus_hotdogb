@@ -3,9 +3,10 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+
+# Include the common OEM chipset BoardConfig.
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
-BOARD_VENDOR := oneplus
 DEVICE_PATH := device/oneplus/hotdogb
 
 # A/B
@@ -15,6 +16,9 @@ AB_OTA_PARTITIONS += \
     recovery \
     system_ext \
     vbmeta_system
+
+# Bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Display
 TARGET_SCREEN_DENSITY := 420
@@ -41,9 +45,6 @@ BOARD_SYSTEM_EXTIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_PRODUCT := product
 TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 
-# Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
-
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 
@@ -57,3 +58,6 @@ BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_VBMETA_SYSTEM_ALGORITHM := SHA256_RSA2048
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
+
+# Include the proprietary files BoardConfig.
+-include vendor/oneplus/hotdogb/BoardConfigVendor.mk
