@@ -376,7 +376,6 @@ odm/firmware/ringtone_Sun_glittering_RTP.bin
 odm/firmware/shuntai24k_rtp.bin
 odm/firmware/t-jingle_RTP.bin
 odm/firmware/wentai24k_rtp.bin
-odm/lib/soundfx/awinic.haptic.effect.so
 vendor/firmware/100ms_RTP_166Hz.bin
 vendor/firmware/100ms_RTP_170Hz.bin
 vendor/firmware/100ms_RTP_174Hz.bin
