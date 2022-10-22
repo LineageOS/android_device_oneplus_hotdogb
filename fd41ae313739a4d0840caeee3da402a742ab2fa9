@@ -16,6 +16,24 @@
       "message": "╰─❯ sha1sum 4bdwlan.b0c\ne507b118f6a1277c2c3eb52f6f686d061467bb97  4bdwlan.b0c\n\ncopies the same bdwlan.bin as oos12 to /mnt/vendor/persist",
       "revId": "fd41ae313739a4d0840caeee3da402a742ab2fa9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a24ac883_01d7b46c",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27025
+      },
+      "writtenOn": "2022-10-22T10:47:57Z",
+      "side": 1,
+      "message": "I guess we could clean up the cruft as persist.vendor.oem.wifi.chain doesn\u0027t seem to be set on stock nor checked by anything on IN variants atleast and it just copies /odm/etc/wifi/4bdwlan.b0c on all the units I tested (probably same for NA)\nBut this works fine so there is nothing stopping from merging this",
+      "parentUuid": "56b3f359_eadce021",
+      "revId": "fd41ae313739a4d0840caeee3da402a742ab2fa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
