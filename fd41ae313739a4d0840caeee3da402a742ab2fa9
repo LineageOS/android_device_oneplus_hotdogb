@@ -34,6 +34,24 @@
       "parentUuid": "56b3f359_eadce021",
       "revId": "fd41ae313739a4d0840caeee3da402a742ab2fa9",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4a88f839_f5e4b154",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-10-22T11:04:32Z",
+      "side": 1,
+      "message": "I prefer to just leave it as is.",
+      "parentUuid": "a24ac883_01d7b46c",
+      "revId": "fd41ae313739a4d0840caeee3da402a742ab2fa9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
