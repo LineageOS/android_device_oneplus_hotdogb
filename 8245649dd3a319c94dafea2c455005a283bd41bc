@@ -16,6 +16,23 @@
       "message": "i think we should track down where the [x, y] also comes from before we decide to touch these values",
       "revId": "8245649dd3a319c94dafea2c455005a283bd41bc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b286ef9e_7854f8cb",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 27025
+      },
+      "writtenOn": "2022-10-22T10:38:18Z",
+      "side": 1,
+      "message": "for rest of the devices\n\n╰─❯ strings odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service | rg SM8150\nSM8150 set goodix iconlocation to 244 (pixel:540 2156) (all: 1080 2400), iconsize to 204, iconnumber to 4 \nSM8150 set goodix iconlocation to 392 (pixel:720 2728) (all: 1440 3120), iconsize to 265, iconnumber to 7 \nSM8150 set goodix iconlocation to 278 (pixel:540 2062) (all: 1080 2340), iconsize to 198, iconnumber to 1 \nSM8150 set goodix iconlocation to 392 (pixel:720 2728) (all: 1440 3120), iconsize to 274 iconnumber to 0\n\nI don\u0027t see persist.vendor.fingerprint.optical.sensorlocation anywhere, so using pixel: as reference\n\nmight have to double check which one 7tp and 7p has because there\u0027s two fp sizes",
+      "revId": "8245649dd3a319c94dafea2c455005a283bd41bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
