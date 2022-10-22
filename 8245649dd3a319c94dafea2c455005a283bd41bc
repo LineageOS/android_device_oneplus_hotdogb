@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ea57a6_28909244",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2022-10-22T10:37:52Z",
+      "side": 1,
+      "message": "i think we should track down where the [x, y] also comes from before we decide to touch these values",
+      "revId": "8245649dd3a319c94dafea2c455005a283bd41bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
