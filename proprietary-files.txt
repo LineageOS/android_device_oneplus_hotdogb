@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 7T (HD1901_11.F.18)
+## from OnePlus 7T (HD1901_11.F.20)
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
