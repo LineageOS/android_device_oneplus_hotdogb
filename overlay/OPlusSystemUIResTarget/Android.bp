@@ -5,5 +5,5 @@
 
 runtime_resource_overlay {
     name: "OPlusSystemUIResTarget",
-    vendor: true,
+    device_specific: true,
 }
