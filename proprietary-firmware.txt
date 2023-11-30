@@ -1,0 +1,22 @@
+## All proprietary files from this list, unless pinned and noted otherwise, are
+## from OnePlus 7T (HD1901_11_F.22)
+
+LOGO.img;AB
+abl.img;AB
+aop.img;AB
+bluetooth.img;AB
+cmnlib.img;AB
+cmnlib64.img;AB
+devcfg.img;AB
+dsp.img;AB
+hyp.img;AB
+imagefv.img;AB
+keymaster.img;AB
+modem.img;AB
+multiimgoem.img;AB
+qupfw.img;AB
+storsec.img;AB
+tz.img;AB
+uefisecapp.img;AB
+xbl.img;AB
+xbl_config.img;AB
