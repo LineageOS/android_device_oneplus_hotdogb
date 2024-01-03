@@ -1,2 +1,5 @@
+# ALS
+vendor.sensors.als_correction.grabrect=446 0 574 104
+
 # Bluetooth
 bluetooth.device.default_name=OnePlus 7T
