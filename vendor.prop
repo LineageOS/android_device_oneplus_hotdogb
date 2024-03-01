@@ -1,5 +1,16 @@
 # ALS
 vendor.sensors.als_correction.grabrect=446 0 574 104
+vendor.sensors.als_correction.bias=0
+vendor.sensors.als_correction.hbr=true
+vendor.sensors.als_correction.rgbw_max_lux=1500.0 2600.0 1400.0 4600.0
+vendor.sensors.als_correction.rgbw_max_lux_div=1437.0 2427.0 1369.0 4606.0
+vendor.sensors.als_correction.rgbw_poly1=4.787111E-5 0.0073087 0.6651031 0.0
+vendor.sensors.als_correction.rgbw_poly2=1.1037093E-4 0.0059161806 0.82983816 0.0
+vendor.sensors.als_correction.rgbw_poly3=4.6553232E-5 0.008220689 0.24763061 0.0
+vendor.sensors.als_correction.rgbw_poly4=7.379156E-5 0.006951839 0.6299237 0.0
+vendor.sensors.als_correction.grayscale_weights=0.33 0.42 0.25
+vendor.sensors.als_correction.sensor_gaincal_points=1050.0 800.0 450.0 0.0
+vendor.sensors.als_correction.sensor_inverse_gain=0.0288 0.0361 0.0466 0.0615
 
 # Bluetooth
 bluetooth.device.default_name=OnePlus 7T
