@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "fa5f5d6a_080e71a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 19979
+      },
+      "writtenOn": "2026-05-13T04:02:14Z",
+      "side": 1,
+      "message": "See comment on https://review.lineageos.org/c/LineageOS/android_device_oneplus_hotdog/+/483215",
+      "revId": "78dcd82691a1a319143754e5d46d2dfcc8f0f892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
